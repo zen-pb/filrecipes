@@ -1,4 +1,4 @@
-# zenRecipes
+# Filipino Recipes
 
 This project involves building a basic recipe website where I will apply my recently acquired knowledge of HTML. 
 
