@@ -18,10 +18,29 @@ body {
     margin: 0;
 }
 
+p {
+    max-inline-size: 66ch;
+    line-height: 1.65;
+}
+
 header {
-    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
     width: 1500px;
     margin-inline: auto;
+}
+
+header>span {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+hr {
+    width: 95%;
+    border: 1px solid black;
+    margin: 0 auto;
 }
 
 img {
@@ -32,6 +51,8 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     shape-margin: 1rem;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 footer {
