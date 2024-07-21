@@ -26,15 +26,10 @@ p {
 header {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    justify-content: space-between;
     padding: 1.5rem;
     width: 1500px;
     margin-inline: auto;
-}
-
-header>span {
-    font-size: 32px;
-    font-weight: bolder;
 }
 
 hr {
