@@ -10,6 +10,30 @@
     align-items: center;
 }
 
+.recipe-page-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.recipe-page-title>span {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.home {
+    background-image: url("../images/home.svg");
+    height: 50px;
+    width: 50px;
+    scale: 1;
+    transition: ease-in-out 150ms;
+}
+
+.home:hover {
+    background-image: url("../images/home-filled.svg");
+    scale: 1.1;
+}
+
 .food {
     display: flex;
     flex-direction: column;
