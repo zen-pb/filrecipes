@@ -29,8 +29,10 @@
 
 .recipe-link {
     text-decoration: none;
+    scale: 1;
+    transition: ease-in-out 250ms;
 }
 
 .recipe-link:hover {
-    border: 5px solid black;
+    scale: 1.1;   
 }
