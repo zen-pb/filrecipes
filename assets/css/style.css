@@ -6,8 +6,8 @@
 .wrapper {
     display: flex;
     justify-content: center;
-    align-items: center ;
-    margin: 0 10rem;
+    align-items: center;
+    margin-inline: auto;
 }
 
 .grid-container {
@@ -25,6 +25,7 @@
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .recipe-link {
@@ -34,5 +35,5 @@
 }
 
 .recipe-link:hover {
-    scale: 1.1;   
+    scale: 1.1;
 }
