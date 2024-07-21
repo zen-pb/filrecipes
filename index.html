@@ -4,15 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FilRecipes</title>
+    <link rel="icon" href="./assets/images/icon.png" />
     <link rel="stylesheet" href="./assets/css/utils.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <header>
-      <h1 class="title">FilRecipes</h1>
+      <img
+        src="./assets/images/logo.png"
+        width="300"
+        height="300"
+        alt="FilRecipes Logo"
+      />
     </header>
 
-    <div class="wrapper">
+    <main class="wrapper">
       <div class="grid-container">
         <a href="recipes/beef_bulalo.html" class="recipe-link">
           <div class="grid-item">
@@ -138,12 +144,32 @@
               alt="Pork Sisig"
               class="food-img"
               width="300"
-              height="300"  
+              height="300"
             />
             <h2>Pork Sisig Recipe</h2>
           </div>
         </a>
       </div>
-    </div>
+    </main>
+    <footer>
+      <p>
+        Copyright ©
+        <span id="currentYear"></span>
+        zen-pb
+      </p>
+      <a href="https://github.com/zen-pb" target="_blank">
+        <img
+          src="./assets/images/github-mark.png"
+          width="35"
+          height="35"
+          alt="github"
+        />
+      </a>
+    </footer>
+
+    <script>
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+    </script>
   </body>
 </html>
