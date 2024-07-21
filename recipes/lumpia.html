@@ -52,5 +52,25 @@
         </ol>
       </div>
     </div>
+    <footer>
+      <p>
+        Copyright ©
+        <span id="currentYear"></span>
+        zen-pb
+      </p>
+      <a href="https://github.com/zen-pb" target="_blank">
+        <img
+          src="../assets/images/github-mark.png"
+          width="35"
+          height="35"
+          alt="github"
+        />
+      </a>
+    </footer>
+
+    <script>
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+    </script>
   </body>
 </html>
