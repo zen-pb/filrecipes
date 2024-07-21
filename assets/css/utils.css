@@ -7,6 +7,21 @@
     font-family: 'Georgia', sans-serif;
     background-color: var(--bg-color);
     color: var(--text);
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    padding: 1rem;
+    width: 1500px;
+    margin-inline: auto;
 }
 
 img {
@@ -17,4 +32,28 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     shape-margin: 1rem;
+}
+
+footer {
+    display: flex;
+    padding: 1vh;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 16px;
+    text-align: center;
+
+    a:hover {
+        animation: rotate .5s forwards;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
 }
