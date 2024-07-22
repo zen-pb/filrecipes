@@ -10,11 +10,12 @@
     margin-inline: auto;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(5, 300px);
-    place-items: center;
-    gap: 1rem 1rem;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
 .grid-item {
