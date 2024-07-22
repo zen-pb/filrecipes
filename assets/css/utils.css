@@ -28,8 +28,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem;
-    width: 1500px;
-    margin-inline: auto;
+    margin: 0 10vw;
 }
 
 hr {
