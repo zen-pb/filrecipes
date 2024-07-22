@@ -21,6 +21,10 @@
     font-weight: bolder;
 }
 
+.title-main {
+    display: none;
+}
+
 .home {
     background-image: url("../images/home.svg");
     height: 50px;
@@ -57,9 +61,9 @@ img.food-img {
 }
 
 .text {
-    margin-top: 2rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .ingredients {
@@ -89,4 +93,28 @@ ul {
     max-inline-size: 66ch;
     line-height: 1.65;
     padding-left: 0;
+}
+
+@media (width <=1666px) {
+    header {
+        margin: 0 5vw;
+    }
+}
+
+@media (width <=1025px) {
+    header {
+        margin: 0;
+    }
+
+    .title-logo {
+        display: none;
+    }
+
+    .title-main {
+        display: block;
+    }
+
+    .container {
+        flex-direction: column;
+    }
 }
