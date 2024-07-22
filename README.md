@@ -10,7 +10,7 @@ Completing this project will demonstrate that I have sufficiently exercised my s
 ## Future updates:
 - ~~Navigation bar: Add some distinct fancy features depending on what page you are on.~~
 - ~~Layout: Fix layout into a more organized one.~~
-- Responsive design: As of now, the website is only good to view on desktops.
+- ~~Responsive design: As of now, the website is only good to view on desktops.~~
 - Add more text to this file.
 
 ## Update - July 22, 2024
@@ -21,6 +21,9 @@ Completing this project will demonstrate that I have sufficiently exercised my s
 - Changed layout of the recipe pages.
 - Added a home link when in a recipe page.
 - Added a footer to the website.
+
+## Update - July 23, 2024
+- Add responsive design.
 
 ## Attributions
 
