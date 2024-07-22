@@ -23,7 +23,7 @@ Completing this project will demonstrate that I have sufficiently exercised my s
 - Added a footer to the website.
 
 ## Update - July 23, 2024
-- Add responsive design.
+- Added responsive design.
 
 ## Attributions
 
