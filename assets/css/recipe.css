@@ -23,6 +23,7 @@
 
 .title-main {
     display: none;
+    padding: 0 1rem;
 }
 
 .home {
@@ -36,6 +37,10 @@
 .home:hover {
     background-image: url("../images/home-filled.svg");
     scale: 1.1;
+}
+
+.home-mobile {
+    display: none;
 }
 
 .food {
@@ -114,7 +119,37 @@ ul {
         display: block;
     }
 
+    .home {
+        display: none;
+    }
+
+    .home-mobile {
+        display: block;
+        position: fixed;
+        background-image: url("../images/back-button.svg");
+        height: 75px;
+        width: 75px;
+        bottom: 40px;
+        right: 25px;
+        opacity: 0.9;
+        border-radius: 100px;
+    }
+
     .container {
         flex-direction: column;
+    }
+
+    .ingredients>ul {
+        display: block;
+    }
+}
+
+@media (width <= 576px){
+    header {
+        justify-content: center;
+    }
+
+    .title-main {
+        text-align: center;
     }
 }
