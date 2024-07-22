@@ -72,6 +72,10 @@ img.food-img {
     font-size: 20px;
 }
 
+.ingredients>ul>li {
+    margin-left: 3rem;
+}
+
 .steps {
     padding: 1rem;
 }
